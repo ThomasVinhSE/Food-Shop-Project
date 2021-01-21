@@ -315,7 +315,10 @@
                     var form = document.getElementById("form_cart");
                     const data = new FormData(form);
                     const value = Object.fromEntries(data.entries());
-                    window.location.replace('https://accounts.google.com/o/oauth2/auth?client_id=1066485509181-g226gik0baf97igo1p4pn1o405bivm20.apps.googleusercontent.com&scope=email&redirect_uri=http://localhost:8080/lab1/DispatcherServlet?btnAction=Login&state=' + JSON.stringify(value) + '&response_type=code');
+                    if(isAddCart)
+                        window.location.replace('https://accounts.google.com/o/oauth2/auth?client_id=1066485509181-g226gik0baf97igo1p4pn1o405bivm20.apps.googleusercontent.com&scope=email&redirect_uri=http://localhost:8080/lab1/DispatcherServlet?btnAction=Login&state=' + JSON.stringify(value) + '&response_type=code');
+                    else
+                        window.location.replace('https://accounts.google.com/o/oauth2/auth?client_id=1066485509181-g226gik0baf97igo1p4pn1o405bivm20.apps.googleusercontent.com&scope=email&redirect_uri=http://localhost:8080/lab1/DispatcherServlet?btnAction=Login'+'&response_type=code');
                     return;
                 }
                 const data = {txtUsername: username, txtPassword: password};
