@@ -195,8 +195,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[createDate]
            ,[category]
            ,[quantity]
-           ,[status]
-           ,[temporary])
+           ,[status])
      VALUES
            ('Grilled Chicken'
            ,'./images/food/chicken.jpg'
@@ -205,8 +204,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,'2021-01-08 17:23:34.257'
            ,1
            ,6
-           ,1
-           ,0)
+           ,1)
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -217,7 +215,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Hambergur'
            ,'./images/food/hamburger.jpg'
@@ -227,7 +225,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,1
            ,31
            ,1
-           ,0)
+           )
 GO
 
 INSERT INTO [dbo].[tbl_Product]
@@ -239,7 +237,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Noodle'
            ,'./images/food/noodle.jpeg'
@@ -249,7 +247,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,1
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -260,7 +258,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Blue Grey'
            ,'./images/vegetable/vegetable4.jpg'
@@ -270,7 +268,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,3
            ,30
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -281,7 +279,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Mark Spon'
            ,'./images/vegetable/vegetable5.jpg'
@@ -291,7 +289,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,3
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -302,7 +300,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Milk Tea'
            ,'./images/drink/milktea.jpg'
@@ -312,7 +310,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,2
            ,20
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -323,7 +321,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Nihon Gongcha'
            ,'./images/drink/gongcha.png'
@@ -333,7 +331,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,2
            ,20
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -344,7 +342,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Coca'
            ,'./images/drink/coca.jpg'
@@ -354,7 +352,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,2
            ,15
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -365,7 +363,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Cocktail'
            ,'./images/drink/cocktail.jpg'
@@ -375,7 +373,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,2
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -386,7 +384,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Coffee'
            ,'./images/drink/coffee.jpeg'
@@ -396,7 +394,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,2
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -407,7 +405,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('USA Wine'
            ,'./images/drink/wine.jpg'
@@ -417,7 +415,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,2
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -428,7 +426,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Italia Hot Wine'
            ,'./images/drink/wine2.jpg'
@@ -438,7 +436,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,2
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -449,7 +447,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Carrot'
            ,'./images/vegetable/carrot.png'
@@ -459,7 +457,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,3
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -470,7 +468,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Pack Salad'
            ,'./images/vegetable/salad1.png'
@@ -480,7 +478,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,3
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -491,7 +489,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Radish'
            ,'./images/vegetable/radish.jpg'
@@ -501,7 +499,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,3
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -512,7 +510,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Red Radish'
            ,'./images/vegetable/radish2.jpg'
@@ -522,7 +520,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,3
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -533,7 +531,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Salad'
            ,'./images/vegetable/vegetable1.jpg'
@@ -543,7 +541,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,3
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -554,7 +552,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Combo Salad'
            ,'./images/vegetable/vegetable2.jpg'
@@ -564,7 +562,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,3
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -575,7 +573,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Beef'
            ,'./images/food/beef.jpg'
@@ -585,7 +583,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,1
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -596,7 +594,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Bread'
            ,'./images/food/bread.jpg'
@@ -606,7 +604,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,1
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -617,7 +615,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('USA Bread'
            ,'./images/food/bread2.jpg'
@@ -627,7 +625,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,1
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -638,7 +636,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Cookie'
            ,'./images/food/cookie.jpg'
@@ -648,7 +646,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,1
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -659,7 +657,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Italia Cookie'
            ,'./images/food/cookie3.jpg'
@@ -669,9 +667,9 @@ INSERT INTO [dbo].[tbl_Product]
            ,1
            ,31
            ,1
-           ,0)
+           )
 GO
-v
+
 INSERT INTO [dbo].[tbl_Product]
            ([name]
            ,[image]
@@ -681,7 +679,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Fish'
            ,'./images/food/fish1.jpg'
@@ -691,7 +689,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,1
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -702,7 +700,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('USA Hamburger'
            ,'./images/food/hamburger2.jpg'
@@ -712,7 +710,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,1
            ,31
            ,1
-           ,0)
+           )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -723,7 +721,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+           )
      VALUES
            ('Grilled Pork'
            ,'./images/food/pork.jpg'
@@ -733,7 +731,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,1
            ,31
            ,1
-           ,0)
+          )
 GO
 INSERT INTO [dbo].[tbl_Product]
            ([name]
@@ -744,7 +742,7 @@ INSERT INTO [dbo].[tbl_Product]
            ,[category]
            ,[quantity]
            ,[status]
-           ,[temporary])
+          )
      VALUES
            ('Steak'
            ,'./images/food/steak.jpg'
@@ -754,5 +752,5 @@ INSERT INTO [dbo].[tbl_Product]
            ,1
            ,31
            ,1
-           ,0)
+           )
 GO
