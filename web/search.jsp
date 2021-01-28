@@ -316,9 +316,9 @@
                     const data = new FormData(form);
                     const value = Object.fromEntries(data.entries());
                     if(isAddCart)
-                        window.location.replace('https://accounts.google.com/o/oauth2/auth?client_id=1066485509181-g226gik0baf97igo1p4pn1o405bivm20.apps.googleusercontent.com&scope=email&redirect_uri=http://localhost:8080/lab1/DispatcherServlet?btnAction=Login&state=' + JSON.stringify(value) + '&response_type=code');
+                        window.location.replace('https://accounts.google.com/o/oauth2/auth?client_id=946174400774-qb5n6hkf4fm3ni69io6p6s39vp39dsgh.apps.googleusercontent.com&scope=email&redirect_uri=http://localhost:8080/lab1/DispatcherServlet?btnAction=Login&state=' + JSON.stringify(value) + '&response_type=code');
                     else
-                        window.location.replace('https://accounts.google.com/o/oauth2/auth?client_id=1066485509181-g226gik0baf97igo1p4pn1o405bivm20.apps.googleusercontent.com&scope=email&redirect_uri=http://localhost:8080/lab1/DispatcherServlet?btnAction=Login'+'&response_type=code');
+                        window.location.replace('https://accounts.google.com/o/oauth2/auth?client_id=946174400774-qb5n6hkf4fm3ni69io6p6s39vp39dsgh.apps.googleusercontent.com&scope=email&redirect_uri=http://localhost:8080/lab1/DispatcherServlet?btnAction=Login'+'&response_type=code');
                     return;
                 }
                 const data = {txtUsername: username, txtPassword: password};

@@ -228,7 +228,7 @@
                         </div>
                         <div class="modal-footer" style="text-align:center">
 
-                            <input type="button" class="btn btn-danger"onClick="window.location.replace('https://accounts.google.com/o/oauth2/auth?client_id=1066485509181-g226gik0baf97igo1p4pn1o405bivm20.apps.googleusercontent.com&scope=email&redirect_uri=http://localhost:8080/lab1/DispatcherServlet?btnAction=Login&response_type=code')"value="Đăng nhập bằng Google" />
+                            <input type="button" class="btn btn-danger"onClick="window.location.replace('https://accounts.google.com/o/oauth2/auth?client_id=946174400774-qb5n6hkf4fm3ni69io6p6s39vp39dsgh.apps.googleusercontent.com&scope=email&redirect_uri=http://localhost:8080/lab1/DispatcherServlet?btnAction=Login&response_type=code')"value="Đăng nhập bằng Google" />
 
                             <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
                         </div>
