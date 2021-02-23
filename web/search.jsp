@@ -89,7 +89,7 @@
                 position: relative;
             }
             div#thumbnail img {
-                height: -webkit-fill-available;
+                max-height: 220px;
                 width: fit-content;
             }
             div#thumbnail a {
